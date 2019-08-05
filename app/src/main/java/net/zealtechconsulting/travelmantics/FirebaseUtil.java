@@ -70,8 +70,8 @@ public class FirebaseUtil {
                     //We wrap the following statement in an if block to ensure that we don't crash the app when user is not logged-in.
                     if (mUser != null) {
                         //Finally, we display a toast message to welcome the logged-in user by name.
-                        Toast.makeText(callerActivity.getBaseContext(), "Hello, " + mUser.getDisplayName().toString()
-                                + " Welcome to Travelmantics holiday deals!",Toast.LENGTH_LONG).show();
+                        Toast.makeText(callerActivity.getBaseContext(), "Hello " + mUser.getDisplayName().toString()
+                                + ", Welcome to Travelmantics holiday deals!",Toast.LENGTH_LONG).show();
                     }
 
                 }
